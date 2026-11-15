@@ -1,37 +1,72 @@
 <!doctype html>
-
-<!-- this is a comment for human! -->
-
 <html lang="en">
-
-  <header>
+  <head>
     <title>Odari Sanon's Portal</title>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="FaviconIcon" hreft="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <meta name="viewpoint" content="widht-device=width, initial=scale=1, shrink=to=fit=no">
-    <meta name="name" content="Odari Sanon's Portal">
-    <meta name="robots" content="noIndex, nofollow">
-  </header>
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Odari Sanon's personal portfolio portal">
+  </head>
   <body>
-    <img src="images/unnamed.jpg" width="35%" alt="banner">
-    <h1>Odari Sanon's Portal</h1>
-    <h2>About Me</h2>
-    <p> I am studying computer science</p>
-    <p> I am a student at UMW </p>
-    <h2> Credentials and Portfolio </h2>
-
-    <p><a href= "resume.html"> My Resume  </a> | <a href="https://github.com/NupperZomad"> My Github </a> </p>
-
-    <h2>Contact</h2>
-
-    <p>Email: <a href= "mailto:osanon@mail.umw.edu"> osanon@mail.umw.edu </a> </p>
+    <div class="steam-window">
+      <header class="titlebar">
+        <div class="brand"><span class="brand-mark">S</span> STEAM COMMUNITY</div>
+        <div class="window-buttons" aria-hidden="true"><span>_</span><span>[]</span><span>X</span></div>
+      </header>
+      <nav class="menu-bar" aria-label="Main navigation">
+        <a class="active" href="index.html">PORTAL</a>
+        <a href="resume.html">RESUME</a>
+        <a href="https://github.com/NupperZomad">GITHUB</a>
+        <span class="menu-spacer"></span><span class="online">o ONLINE</span>
+      </nav>
+      <main class="app-body">
+        <aside class="sidebar">
+          <div class="profile-card">
+            <img src="images/unnamed.jpg" alt="Odari Sanon">
+            <div><strong>ODARI SANON</strong><small>Computer Science</small></div>
+          </div>
+          <div class="side-heading">PERSONAL PROFILE</div>
+          <a class="side-link selected" href="index.html"><span>[P]</span> Overview</a>
+          <a class="side-link" href="resume.html"><span>[R]</span> Resume</a>
+          <div class="side-heading">LINKS</div>
+          <a class="side-link" href="https://github.com/NupperZomad"><span>[G]</span> GitHub</a>
+          <a class="side-link" href="mailto:osanon@mail.umw.edu"><span>[E]</span> Email</a>
+        </aside>
+        <section class="content">
+          <div class="hero">
+            <img src="images/unnamed.jpg" alt="" class="hero-image">
+            <div class="hero-copy">
+              <span class="eyebrow">PERSONAL PROFILE / 001</span>
+              <h1>Odari Sanon's Portal</h1>
+              <p>Welcome to my corner of the internet.</p>
+            </div>
+          </div>
+          <div class="content-grid">
+            <article class="panel">
+              <div class="panel-title">ABOUT ME</div>
+              <div class="panel-body">
+                <p>I am studying computer science.</p>
+                <p>I am a student at UMW.</p>
+              </div>
+            </article>
+            <article class="panel">
+              <div class="panel-title">CREDENTIALS &amp; PORTFOLIO</div>
+              <div class="panel-body action-list">
+                <a href="resume.html"><span class="icon">[R]</span><span><strong>My Resume</strong><small>View education and experience</small></span><b>&gt;</b></a>
+                <a href="https://github.com/NupperZomad"><span class="icon">[G]</span><span><strong>My GitHub</strong><small>Browse my projects</small></span><b>&gt;</b></a>
+              </div>
+            </article>
+            <article class="panel contact-panel">
+              <div class="panel-title">CONTACT</div>
+              <div class="panel-body">
+                <p class="status-line"><span class="status-dot"></span> Available for connection</p>
+                <a class="email-link" href="mailto:osanon@mail.umw.edu">osanon@mail.umw.edu</a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="statusbar"><span>STEAM NETWORK</span><span>Copyright (c) 2026 Odari Sanon</span><span>v1.0.04</span></footer>
+    </div>
   </body>
-
-  <footer>
-    <hr>
-    <code> Copyright (c) 2026 Odari Sanon </code>
-  </footer>
-
 </html>

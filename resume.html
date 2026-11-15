@@ -1,43 +1,60 @@
 <!doctype html>
-
-<!-- this is a comment for human! -->
-
 <html lang="en">
-
-  <header>
+  <head>
     <title>Odari Sanon's Resume</title>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="FaviconIcon" hreft="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <meta name="viewpoint" content="widht-device=width, initial=scale=1, shrink=to=fit=no">
-    <meta name="name" content="Odari Sanon's Portal">
-    <meta name="robots" content="noIndex, nofollow">
-  </header>
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
   <body>
-    <hr>
-
-    <img src="images/3703.jpg" alt="Odari Sanon's headshot" width="20%">
-
-    <h1>Odari Sanon</h1>
-    <h4>UMW Student</h4>
-
-    <p>Email: <a href="mailto:osanon@mail.umw.edu" target="_blank">osanon@mail.umw.edu</a></p>
-    <!-- don't post physical address, personal phone number or other personal information on the web! -->
-
-    <h2>Portfolio</h2>
-      <h3>GitHub: <a href="https://github.com/NupperZomad" target="_blank">https://github.com/NupperZomad</a></h3>
-
-    <h2>Education</h2>
-
-    <h3>Warhill High School</h3>
-    <h4>HS Diploma, GPA 3.4</h4>
-
+    <div class="steam-window">
+      <header class="titlebar">
+        <div class="brand"><span class="brand-mark">S</span> STEAM COMMUNITY</div>
+        <div class="window-buttons" aria-hidden="true"><span>_</span><span>[]</span><span>X</span></div>
+      </header>
+      <nav class="menu-bar" aria-label="Main navigation">
+        <a href="index.html">PORTAL</a><a class="active" href="resume.html">RESUME</a><a href="https://github.com/NupperZomad">GITHUB</a>
+        <span class="menu-spacer"></span><span class="online">o ONLINE</span>
+      </nav>
+      <main class="app-body">
+        <aside class="sidebar">
+          <div class="profile-card">
+            <img src="images/3703.jpg" alt="Odari Sanon">
+            <div><strong>ODARI SANON</strong><small>UMW Student</small></div>
+          </div>
+          <div class="side-heading">PERSONAL PROFILE</div>
+          <a class="side-link" href="index.html"><span>[P]</span> Overview</a>
+          <a class="side-link selected" href="resume.html"><span>[R]</span> Resume</a>
+          <div class="side-heading">LINKS</div>
+          <a class="side-link" href="https://github.com/NupperZomad"><span>[G]</span> GitHub</a>
+          <a class="side-link" href="mailto:osanon@mail.umw.edu"><span>[E]</span> Email</a>
+        </aside>
+        <section class="content">
+          <div class="resume-heading">
+            <img src="images/3703.jpg" alt="Odari Sanon's headshot" class="headshot">
+            <div><span class="eyebrow">PROFILE DOCUMENT / 002</span><h1>Odari Sanon</h1><p>UMW Student</p></div>
+            <a class="button" href="mailto:osanon@mail.umw.edu">SEND MESSAGE</a>
+          </div>
+          <div class="resume-panels">
+            <article class="panel">
+              <div class="panel-title">CONTACT INFORMATION</div>
+              <div class="panel-body"><p class="label">EMAIL</p><a class="email-link" href="mailto:osanon@mail.umw.edu">osanon@mail.umw.edu</a></div>
+            </article>
+            <article class="panel">
+              <div class="panel-title">PORTFOLIO</div>
+              <div class="panel-body"><p class="label">GITHUB</p><a class="email-link" href="https://github.com/NupperZomad">github.com/NupperZomad</a></div>
+            </article>
+            <article class="panel wide">
+              <div class="panel-title">EDUCATION</div>
+              <div class="panel-body timeline">
+                <div class="timeline-item"><span class="timeline-icon">[+]</span><div><h2>Warhill High School</h2><p>HS Diploma <span class="muted">/ GPA 3.4</span></p></div><span class="date">COMPLETED</span></div>
+              </div>
+            </article>
+          </div>
+          <a class="back-link" href="index.html">&lt; Back to my portal</a>
+        </section>
+      </main>
+      <footer class="statusbar"><span>STEAM NETWORK</span><span>Copyright (c) 2026 Odari Sanon</span><span>v1.0.04</span></footer>
+    </div>
   </body>
-
-  <footer>
-  <hr>
-  <p><a href="index.html">Back to my portal</a><p>
-  </footer>
-
 </html>
